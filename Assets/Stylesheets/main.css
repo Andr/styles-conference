@@ -126,3 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header {
+  border: #2e2e2e;
+  background-image: url(https://cdn.choosechicago.com/uploads/2019/05/loop-1800x900.jpg);
+}
+section {
+}
