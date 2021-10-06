@@ -134,7 +134,7 @@ table {
   ========================================
 */
 
-*, 
+*,
 *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -183,14 +183,22 @@ p {
   ========================================
 */
 .group:before,
-.group::after{
+.group::after {
   content: "";
   display: table;
 }
-.group::after{
+.group::after {
   clear: both;
 }
-.group{ 
-  clear:both;
-  *zoom:1;
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+.logo {
+  float: left;
 }
